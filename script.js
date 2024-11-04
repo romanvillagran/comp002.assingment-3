@@ -14,6 +14,13 @@
 function min(a,b) {
     return a < b ? a : b;
 }
+console.log(min(0, -981273921873928372110));
+console.log(min(11, -11));
 
-console.log(min(0,-10097756866365));
-console.log(min(11,-11))
+
+function calculateCircumference(radius) {
+    const pi = 3.14;
+    return 2 * pi * radius;
+}
+
+console.log(calculateCircumference(5));
